@@ -234,7 +234,7 @@ function setupMusicPlayer() {
         if (bgMusic.paused) {
             bgMusic.play();
         } else {
-            bgMusic.pause();
+            bgMusic.play();
             musicToggle.textContent = config.music.startText;
         }
     });
