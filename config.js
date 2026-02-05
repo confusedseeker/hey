@@ -76,7 +76,7 @@ const CONFIG = {
     // Background Music (Optional)
     // Add your own music URL after getting proper licenses
     music: {
-        enabled: true,                     // Music feature is enabled
+        enabled: false,                     // Music feature is enabled
         autoplay: true,                    // Try to autoplay (note: some browsers may block this)
         musicUrl: "https://res.cloudinary.com/dfk5oupkk/video/upload/v1770295090/Full_Video__Nai_Lagda___Notebook___Zaheer_Iqbal_Pranutan_Bahl___Vishal_Mishra_Asees_Kaur_eyvfk4.mp3", // Music streaming URL
         startText: "Click Me❤️",        // Button text to start music
