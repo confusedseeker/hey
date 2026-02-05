@@ -233,7 +233,6 @@ function setupMusicPlayer() {
     musicToggle.addEventListener('click', () => {
         if (bgMusic.paused) {
             bgMusic.play();
-            musicToggle.textContent = config.music.stopText;
         } else {
             bgMusic.pause();
             musicToggle.textContent = config.music.startText;
